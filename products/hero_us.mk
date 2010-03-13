@@ -17,10 +17,10 @@
 # This is the top-level configuration for a US-configured CyanogenMod build
 PRODUCT_REGION_EU := false
 
-$(call inherit-product, vendor/htc/hero/products/hero.mk)
+$(call inherit-product, vendor/htc/heroc/products/hero.mk)
 
-PRODUCT_NAME := hero_us
+PRODUCT_NAME := heroc_us
 
-include vendor/htc/hero/device.mk
+include vendor/htc/heroc/device.mk
 
 

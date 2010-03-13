@@ -16,10 +16,10 @@
 
 # To be included directly by a product makefile; do not use inherit-product.
 
-DEVICE_PACKAGE_OVERLAYS := vendor/htc/hero/overlay
+DEVICE_PACKAGE_OVERLAYS := vendor/htc/heroc/overlay
 
 PRODUCT_COPY_FILES += \
-	vendor/htc/hero/proprietary/AudioPara4.csv:system/etc/AudioPara4.csv \
-	vendor/htc/hero/proprietary/AudioFilter.csv:system/etc/AudioFilter.csv \
-	vendor/htc/hero/proprietary/AudioPreProcess.csv:system/etc/AudioPreProcess.csv \
-	vendor/htc/hero/proprietary/gps.conf:system/etc/gps.conf
+	vendor/htc/heroc/proprietary/AudioPara4.csv:system/etc/AudioPara4.csv \
+	vendor/htc/heroc/proprietary/AudioFilter.csv:system/etc/AudioFilter.csv \
+	vendor/htc/heroc/proprietary/AudioPreProcess.csv:system/etc/AudioPreProcess.csv \
+	vendor/htc/heroc/proprietary/gps.conf:system/etc/gps.conf

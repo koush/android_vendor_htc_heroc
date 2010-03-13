@@ -18,10 +18,10 @@
 PRODUCT_REGION_EU := true
 
 
-$(call inherit-product, vendor/htc/hero/products/hero.mk)
+$(call inherit-product, vendor/htc/heroc/products/hero.mk)
 
-PRODUCT_NAME := hero_eu
+PRODUCT_NAME := heroc_eu
 
-include vendor/htc/hero/device.mk
+include vendor/htc/heroc/device.mk
 
 
