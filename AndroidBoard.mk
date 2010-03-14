@@ -65,9 +65,9 @@ $(file) : $(LOCAL_PATH)/proprietary/vac_config.ini | $(ACP)
 	$(transform-prebuilt-to-target)
 
 # Ramdisk Files
-file := $(TARGET_ROOT_OUT)/init.hero.rc
+file := $(TARGET_ROOT_OUT)/init.heroc.rc
 ALL_PREBUILT += $(file)
-$(file) : $(LOCAL_PATH)/init.hero.rc | $(ACP)
+$(file) : $(LOCAL_PATH)/init.heroc.rc | $(ACP)
 	$(transform-prebuilt-to-target)
 
 PRODUCT_COPY_FILES += $(LOCAL_PATH)/init.rc:root/init.rc
