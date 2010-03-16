@@ -1,3 +1,3 @@
-ifeq ($(TARGET_DEVICE),hero)
+ifeq ($(TARGET_DEVICE),heroc)
   include $(call all-subdir-makefiles)
 endif
