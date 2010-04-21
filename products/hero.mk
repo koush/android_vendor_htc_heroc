@@ -107,9 +107,6 @@ PRODUCT_PACKAGES += \
     
 PRODUCT_PACKAGES += Superuser
 
-# Build WebKit with V8
-JS_ENGINE=v8
-
 # Pick up some sounds
 include frameworks/base/data/sounds/AudioPackage4.mk
 
