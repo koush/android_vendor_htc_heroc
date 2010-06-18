@@ -44,3 +44,6 @@ BOARD_USERDATAIMAGE_MAX_SIZE := $(call image-size-from-data-size,0x127c0000)
 
 # The size of a block that can be marked bad.
 BOARD_FLASH_BLOCK_SIZE := 131072
+
+BOARD_SDEXT_FILESYSTEM := ext3
+
